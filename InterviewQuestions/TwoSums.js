@@ -1,7 +1,7 @@
 // Find indices of two numbers that add up to target.
 
 (nums = [2, 11, 15, 66, 8, 7]), (target = 9);
-// Output: [0,1]
+// Output: [0,5]
 
 function TwoSums(nums, target) {
   let n = nums.length;

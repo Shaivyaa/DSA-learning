@@ -11,6 +11,9 @@ function FrequentVowelConsonant(s) {
     }
   }
 
+  // above will create map like this
+  // map = {s=4, u=1, c=2, e=2}
+
   let vowels = ["a", "e", "i", "o", "u"];
   let maxVowel = 0;
   let maxConsonant = 0;

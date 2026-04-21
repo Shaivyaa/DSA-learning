@@ -1,5 +1,5 @@
 let str = "cross";
-// Output: true
+// Output: false
 
 function PalindromeStr(str) {
   let left = 0;

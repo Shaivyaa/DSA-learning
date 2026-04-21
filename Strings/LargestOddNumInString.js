@@ -1,16 +1,17 @@
 let s = "52";
 // op = 5
 
-function largestOddinString(num) {
+function largestOddinString(s) {
   let n = s.length - 1;
+  console.log(n);
   while (n >= 0) {
-    if (Number(s[n] % 2 === 0)) {
-      return s.substing(0, n + 1);
+    if (Number(s[n] % 2 === 1)) {
+      return s.substring(0, n + 1);
     }
     --n;
   }
-  return;
+  return "";
 }
 
-let res = largestOddinString(num);
+let res = largestOddinString(s);
 console.log(res);
