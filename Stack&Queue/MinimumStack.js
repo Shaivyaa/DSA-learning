@@ -44,3 +44,12 @@ MinStack.prototype.getMin = function () {
  * var param_3 = obj.top()
  * var param_4 = obj.getMin()
  */
+
+
+
+// FOR HELP - let stack = ['apple', 'banana', 'cherry'];
+
+// // stack.length is 3, so stack.length - 1 is 2
+// let topItem = stack[stack.length - 1]; 
+
+// console.log(topItem); // Outputs: 'cherry'
